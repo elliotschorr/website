@@ -1,2 +1,2 @@
 # website
-A professional website.
+Professional website. Coded from scratch using HTML, CSS, and JavaScript.
