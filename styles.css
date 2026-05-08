@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    color:     color: #280D0D; 
+    color: #280D0D; 
     text-decoration: none;
 
 }
@@ -71,24 +71,18 @@ ul {
 
 .logos {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 25px;
     margin-top: 20px;
 }
 
-.github-logo {
-    flex: 1;
-    width: 30px;
-    height: 30px;
+.github-icon {
 }
 
-.linkedin-logo {
-    flex: 1;
-    width: 30px;
-    height: 30px;
+.linkedin-icon {
+
 }
 
-.muckrack-logo {
-    flex: 1;
-    width: 30px;
-    height: 30px;
+.muckrack-icon {
+
 }
