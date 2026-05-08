@@ -1,19 +1,40 @@
 body {
-        margin: 25%;
-        padding: 20px;
-        background-color: #f9f9f9;
+    margin: 0;
+    min-width: 100vh;
+    background-color: #FAF1EB; 
+    color: #280D0D; 
+    font-family: "Plus Jakarta Sans",sans-serif; 
+}
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }
 
-p {
-        font-family: 'Arial', sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #333;
+.content {
+
+}
+ 
+.about {
+
 }
 
-h1 {
-        font-family: 'Georgia', serif;
-        font-size: 36px;
-        color: #2c3e50;
-    
+h1 { 
+        font-family: "Space Mono", sans-serif;
+        font-size: 32px;
+}
+
+h2 {
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-size: 24px;
+}
+
+button {
+   width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: FAF1EB;   
+    background-color: #280D0D
 }
