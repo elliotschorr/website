@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Elliot Schorr",
+    "label": "Digital Marketer",
+    "image": "../images/Elliot-Schorr.png",
+    "email": "eschorr0802@gmail.com",
+    "phone": "(804) 837-1461",
+    "url": "https://elliotschorr.com",
+    "summary": "Digital marketing professional with 3+ years of experience driving audience engagement through SEO, email marketing, analytics, content strategy, and project management. Experienced with GA4, Google Ads, Semrush, Looker Studio, WordPress, Mailchimp, Asana, Adobe Creative Cloud, and web development fundamentals, with a strong focus on combining creativity with data-driven decision-making.",
+    "location": {
+      "address": "2500 Grayland Ave",
+      "postalCode": "VA 23220",
+      "city": "Richmond",
+      "countryCode": "US",
+      "region": "Virginia"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Elliot Schorr",
+      "url": "https://www.linkedin.com/in/elliot-schorr-040139281/"
+    }]
+  },
+  "work": [{
+    "name": "Maymont",
+    "position": "Marketing Traffic Coordinator",
+    "url": "https://mayont.org",
+    "startDate": "2025-12-01",
+    "endDate": "Present",
+    "summary": "Manage marketing workflows, campaign coordination, email marketing initiatives, SEO support, analytics reporting, and digital content strategy for Maymont’s nonprofit marketing team. Collaborate across departments to support fundraising and membership campaigns, strengthen audience engagement, and improve digital visibility across marketing channels.",
+    "highlights": [
+      
+    ]
+  }, {
+    "name": "Static Media",
+    "position": "Freelance Writer",
+    "url": "https://www.islands.com/author/elliotschorr/",
+    "startDate": "2025-08-01",
+    "endDate": "Present",
+    "summary": "Freelance writing covering travel, lifestyle, and culture content for digital publications.",
+    "highlights": [
+      
+    ]
+  }, {
+    "name": "Ferguson Advertising",
+    "position": "Freelance Digital Content Strategist",
+    "url": "https://www.theferg.com/",
+    "startDate": "2025-03-01",
+    "endDate": "Present",
+    "summary": "Develop SEO-optimized digital content for clients across multiple industries, including legal, medical technology, and home products. Conduct keyword research, competitive analysis, and content planning using Semrush to improve search visibility, topical authority, and organic performance. Collaborate on content strategies that align with brand voice, audience intent, and long-term SEO goals.",
+    "highlights": [
+      
+    ]
+  },{
+    "name": "Homes.com",
+    "position": "Content Writer",
+    "url": "https://homes.com/",
+    "startDate": "2023-09-01",
+    "endDate": "2025-02-28",
+    "summary": "Researched and wrote hyper-local neighborhood guides and digital content focused on audience engagement, storytelling, and brand consistency. Conducted interviews with local sources and real estate professionals across multiple markets while consistently meeting weekly production goals and maintaining high content quality standards. Collaborated across departments on video content direction, editing, and creative execution in a fast-paced, startup-style environment while self-editing 100+ published articles.",
+    "highlights": [
+      
+    ]
+  }],
+  "education": [{
+    "institution": "University of Virginia",
+    "url": "https://wwww.virginia.edu/",
+    "area": "Media Studies",
+    "studyType": "Bachelor",
+    "startDate": "2019-08-01",
+    "endDate": "2023-05-01",
+    "score": "3.5",
+    "courses": [
+    ]
+  }],
+  "certificates": [{
+    "name": "Google Analytics Certification",
+    "date": "2025-11-01",
+    "issuer": "Skillshop",
+    "url": "https://skillshop.credential.net/24321eaa-1104-4851-9dec-c3dd765dea87#acc.mLuNXvel"
+  },{
+    "name": "Conversion Optimization Certification",
+    "date": "2025-11-01",
+    "issuer": "Skillshop",
+    "url": "https://skillshop.credential.net/2fd26ac3-0857-4222-938c-2b9c46a8cb4f#acc.u57mrp2n"
+  }
+],
+  "skills": [{
+    "name": "Project Management",
+    "level": "Master",
+    "keywords": [
+      "Asana", 
+      "Notion",
+      "Trello",
+      "Jira"
+    ]    
+  },{
+    "name": "Search Engine Optimization (SEO)",
+    "level": "Master",
+    "keywords": [
+      "Semrush",
+      "Local SEO",
+      "Keyword Research",
+      "On-Page Optimization",
+        "Technical SEO"
+    ]   
+  },{
+    "name": "Digital Marketing",
+    "level": "Master",
+    "keywords": [
+        "Google Analytics 4 (GA4)",
+        "Google Ads",
+        "Looker Studio",
+        "Email Marketing",
+        "Content Strategy",
+        "Web Development Fundamentals"
+    ]   
+  }, {
+    "name": "Copywriting",
+    "level": "Master",
+    "keywords": [
+        "SEO Copywriting",
+        "Creative Writing",
+        "Content Creation",
+        "Editing"
+    ]    
+  }
+],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }]
+}
