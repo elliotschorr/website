@@ -44,6 +44,15 @@ body {
 
 }
 
+.content-contact {
+    flex: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    gap: 20px;
+}
+
 @media (min-width: 768px) {
     .content {
         flex-direction: row;
@@ -78,10 +87,15 @@ h1 {
         font-size: 32px;
 }
 
-h2, label {
+h2 {
        font-family: "Space Mono", sans-serif;
        font-size: 24px;
        font-weight: bold;
+}
+
+label {
+       font-family: "Plus Jakarta Sans", sans-serif;
+       font-size: 24px;;
 }
 
 button {
@@ -132,31 +146,23 @@ li:hover {
 }
 
 input {
-
+    width: 50vw;
+    height: 2em;
+    border: 0px solid #280D0D;
+    border-radius: 5px;
+    font-family: "Space Mono", sans-serif;
+    color: #280D0D;
+    margin: 5px 0px 10px 0px;
 }
 
 textarea {
-
-}
-
-.submit-button {
-    width: 100px;
-    border-radius: 10px;
-    padding: 10px;
-    border: 3px solid #FAF1EB;
-    color: #FAF1EB;   
-    background-color: #280D0D;
-    font-family: "Plus Jakarta Sans", sans-serif;
-}
-
-.submit-button:hover {
-    background-color: #FAF1EB;
+    width: 50vw;
+    height: 5em;
+    border: 0px solid #280D0D;
+    border-radius: 5px;
+    font-family: "Space Mono", sans-serif;
     color: #280D0D;
-    border: 3px solid #280D0D;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100px;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
+    margin: 5px 0px 10px 0px;
+
 }
+

@@ -21,7 +21,7 @@ form.addEventListener('submit', async (e) => {
         const data = await response.json();
 
         if (response.ok) {
-            alert("Success! Your message has been sent.");
+            alert("Thanks! I'll get back to you soon.");
             form.reset();
         } else {
             alert("Error: " + data.message);
