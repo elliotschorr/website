@@ -10,7 +10,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    color: green;
+    color:     color: #280D0D; 
+    text-decoration: none;
+
 }
 
 .content {
@@ -27,7 +29,9 @@ body {
 }
 
 .headshot {
-    flex: 2;
+    flex: 1;
+    border-radius: 10px;
+
 
 }
 
@@ -61,5 +65,7 @@ ul {
     color: #F9FAF8;
     gap: 20px;
     text-decoration: none;
+    color: #280D0D; 
+
 }
 
