@@ -16,11 +16,21 @@ body {
 }
 
 .content {
-    margin: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 
+}
+
+.footer {
+    background-color: #280D0D;
+    color: #FAF1EB;
+    text-align: center;
+    padding: 20px;
 }
  
 .about {
@@ -72,8 +82,9 @@ ul {
 .logos {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     margin-top: 20px;
+    align-items: center;
 }
 
 .github-icon {
