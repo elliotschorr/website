@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-bottom: 60px;
     color: #280D0D; 
     text-decoration: none;
 
@@ -61,10 +62,15 @@ body {
 
 }
 
-.headshot {
+.headshot-container {
     flex: 0 1 auto;
     border-radius: 10px;
+}
 
+.headshot-img {
+        display: flex;
+        justify-content: center;
+    flex: 1;
 }
 
 h1 { 
@@ -88,6 +94,12 @@ button {
 
 }
 
+.button:hover {
+    background-color: #FAF1EB;
+    color: #280D0D;
+    border: 4px solid #280D0D;
+    cursor: pointer;
+}
 
 ul {
     list-style: none;
