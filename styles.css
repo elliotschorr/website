@@ -21,12 +21,12 @@ body {
 }
  
 .about {
-    flex: 1;
+    flex: 3;
 
 }
 
 .headshot {
-    flex: 1;
+    flex: 2;
 
 }
 
