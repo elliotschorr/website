@@ -22,9 +22,10 @@
   },
   "work": [{
     "name": "Maymont",
+    "location": "Richmond, VA",
     "position": "Marketing Traffic Coordinator",
-    "url": "https://mayont.org",
-    "startDate": "2025-12-01",
+    "url": "https://maymont.org",
+    "startDate": "December 2025",
     "endDate": "Present",
     "summary": "Manage marketing workflows, campaign coordination, email marketing initiatives, SEO support, analytics reporting, and digital content strategy for Maymont’s nonprofit marketing team. Collaborate across departments to support fundraising and membership campaigns, strengthen audience engagement, and improve digital visibility across marketing channels.",
     "highlights": [
@@ -32,9 +33,10 @@
     ]
   }, {
     "name": "Static Media",
+    "location": "Remote",
     "position": "Freelance Writer",
     "url": "https://www.islands.com/author/elliotschorr/",
-    "startDate": "2025-08-01",
+    "startDate": "August 2025",
     "endDate": "Present",
     "summary": "Freelance writing covering travel, lifestyle, and culture content for digital publications.",
     "highlights": [
@@ -42,9 +44,10 @@
     ]
   }, {
     "name": "Ferguson Advertising",
+    "location": "Remote",
     "position": "Freelance Digital Content Strategist",
     "url": "https://www.theferg.com/",
-    "startDate": "2025-03-01",
+    "startDate": "March 2025",
     "endDate": "Present",
     "summary": "Develop SEO-optimized digital content for clients across multiple industries, including legal, medical technology, and home products. Conduct keyword research, competitive analysis, and content planning using Semrush to improve search visibility, topical authority, and organic performance. Collaborate on content strategies that align with brand voice, audience intent, and long-term SEO goals.",
     "highlights": [
@@ -52,10 +55,11 @@
     ]
   },{
     "name": "Homes.com",
+    "location": "Richmond, VA",
     "position": "Content Writer",
     "url": "https://homes.com/",
-    "startDate": "2023-09-01",
-    "endDate": "2025-02-28",
+    "startDate": "September 2023",
+    "endDate": "February 2025",
     "summary": "Researched and wrote hyper-local neighborhood guides and digital content focused on audience engagement, storytelling, and brand consistency. Conducted interviews with local sources and real estate professionals across multiple markets while consistently meeting weekly production goals and maintaining high content quality standards. Collaborated across departments on video content direction, editing, and creative execution in a fast-paced, startup-style environment while self-editing 100+ published articles.",
     "highlights": [
       
@@ -63,11 +67,11 @@
   }],
   "education": [{
     "institution": "University of Virginia",
-    "url": "https://wwww.virginia.edu/",
+    "url": "https://www.virginia.edu/",
     "area": "Media Studies",
     "studyType": "Bachelor",
-    "startDate": "2019-08-01",
-    "endDate": "2023-05-01",
+    "startDate": "August 2019",
+    "endDate": "May 2023",
     "score": "3.5",
     "courses": [
     ]
