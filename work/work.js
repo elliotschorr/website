@@ -33,12 +33,10 @@ fetch('work.json')
                         </div>
         </div>
         <div class="project-image">
-                        <a href="${project.primaryAsset}" data-lightbox>
-                            <img src="${project.primaryAsset}" style="max-width: 350; border-radius: 10px;">
+                        <a href="${project.primaryAsset}" data-lightbox="gallery">
+                            <img src="${project.primaryAsset}" style="object-fit: cover; height: 100%">
                         </a>
-                        <p class="project-caption">
-                            ${project.caption}
-                        </p>
+                    
         </div>
     
     </div>
