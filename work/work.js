@@ -8,27 +8,28 @@ fetch('work.json')
         projects.innerHTML = `
 
             ${data.work.map(project => `
-                   <div class="content">
-        <div class="project-about">
-                        <h1 class="project-title">
-                            ${project.title}
-                        </h1>
+        <div class="content">
+        <div class="project-container">
+             <div class="project-about">
+                 <h1 class="project-title">
+                      ${project.title}
+                 </h1>
 
-                        <p class="project-meta"><b>
-                            ${project.meta}</b>
-                        </p>
+                <p class="project-meta"><b>
+                    ${project.meta}</b>
+                </p>
 
-                        <p class="project-summary">
-                            ${project.summary}
-                        </p>
+                <p class="project-summary">
+                    ${project.summary}
+                </p>
 
-                        <div class="project-tools">
+                <div class="project-tools">
 
-                            ${project.tools.map(tool => `
-                                <span class="tool">
-                                    ${tool}
-                                </span>
-                            `).join("")}
+                    ${project.tools.map(tool => `
+                         <span class="tool">
+                               ${tool}
+                        </span>
+                      `).join("")}
 
                         </div>
         </div>
@@ -36,7 +37,10 @@ fetch('work.json')
                         <a href="${project.primaryAsset}" data-lightbox="gallery">
                             <img src="${project.primaryAsset}" style="object-fit: cover; height: 100%">
                         </a>
+                        <p>${project.caption} (click to enlarge).</p>
                     
+        </div>
+        
         </div>
     
     </div>

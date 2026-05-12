@@ -59,7 +59,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    .content {
+    .content .project-container {
         flex-direction: row;
     }
 
@@ -213,15 +213,15 @@ textarea {
 
 .project-about {
     flex: 5;
-
 }
 
 .project-image {
     flex: 4;
+    border: 2px solid #280D0D;
     border-radius: 10px;
-        border: 2px solid #280D0D;
     width: fixed;
     height: fixed;
+    overflow: hidden;
 }
 .project-tools {
     display: flex;
@@ -248,4 +248,13 @@ textarea {
     font-style: italic;
     font-size: 14px;
     color: rgba(40, 13, 13, .7);
+}
+
+.project-container {
+    flex: auto;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 20px;
+    flex-direction: column-reverse;
 }
