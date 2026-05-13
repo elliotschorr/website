@@ -7,26 +7,25 @@ fetch('work.json')
         projects.innerHTML = `
 
             ${data.work.map(project => `
-        <div class="content project-section">
-        <div class="project-container">
-             <div class="project-about">
-                 <h1 class="project-title">
-                      ${project.title}
-                 </h1>
+            <div class="content project-section">
+                <div class="project-container">
+                    <div class="project-about">
+                        <h1 class="project-title">
+                            ${project.title}
+                        </h1>
 
-                <p class="project-meta"><b>
-                    ${project.meta}</b>
-                </p>
+                        <p class="project-meta"><b>
+                            ${project.meta}</b>
+                        </p>
 
-                <p class="project-summary">
-                    ${project.summary}
-                </p>
+                        <p class="project-summary">
+                            ${project.summary}
+                        </p>
 
-                <div class="project-tools">
-
-                    ${project.tools.map(tool => `
-                         <span class="tool">
-                               ${tool}
+                        <div class="project-tools">
+                            ${project.tools.map(tool => `
+                                <span class="tool">
+                                    ${tool}
                         </span>
                       `).join("")}
 

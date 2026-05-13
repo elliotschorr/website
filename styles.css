@@ -309,7 +309,6 @@ textarea {
     font-size: 14px;
     color: rgba(40, 13, 13, 0.7);
 }
-
 .portfolio-cta {
     margin-left: 15%;
     margin-right: 15%;
@@ -320,6 +319,3 @@ textarea {
     gap: 40px;
 }
 
-.portfolio-cta h1 {
-    margin: 0;
-}
