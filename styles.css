@@ -35,8 +35,8 @@ body {
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 18%;
+    margin-right: 18%;
     margin-top: 0%;
     margin-bottom: 5%;
     align-content: center;;
@@ -272,18 +272,14 @@ textarea {
     transition: background-color 0.3s ease;
 }
 
-.project-caption {
-    margin-top: 10px;
-    font-style: italic;
-    font-size: 14px;
-    color: rgba(40, 13, 13, .7);
-}
+
 
 .project-container {
     flex: auto;
     display: flex;
     gap: 5px;
     flex-direction: column-reverse;
+
     align-items: center;
 }
 
@@ -299,8 +295,8 @@ textarea {
 .portfolio-intro {
     flex: 0;
     display: block;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 18%;
+    margin-right: 18%;
     padding: 30px 0 40px;
 }
 
@@ -310,8 +306,8 @@ textarea {
     color: rgba(40, 13, 13, 0.7);
 }
 .portfolio-cta {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 18%;
+    margin-right: 18%;
     padding: 60px 0;
     display: flex;
     align-items: center;
