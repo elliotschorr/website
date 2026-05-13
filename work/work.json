@@ -1,46 +1,49 @@
 {
-    "work": [{
-        "title": "SEO & Content Strategy",
-        "meta": ["Search Intent · Keyword Strategy · Content Architecture"],
-        "summary": "Content strategy and SEO optimization work focused on search intent analysis, keyword planning, content hierarchy, and long-form pillar page development for B2B and technical industries.",        "tools": ["Semrush", "Google Ads", "WordPress"],
-        "tags":  ["SEO", "Content Strategy", "Keyword Research"],
-        "primaryAsset": "portfolio/seo-strategy.png",
-        "caption": "Showing SEO planning and content architecture through keyword clustering, search intent mapping, metadata planning, and pillar page strategy development."
-        },
-        {
-        "title": "Project Management & Traffic Coordination",
-        "meta": ["Campaign Planning · Workflow Systems · Email Marketing"],
-        "summary": "Campaign coordination and marketing operations work supporting multi-channel nonprofit initiatives through structured workflows, email scheduling, content calendars, and cross-functional project management systems.",
-        "tools": ["Asana", "Mailchimp", "Content Calendars"],
-        "tags":  ["Campaigns", "Email Marketing", "Project Management"],
-        "primaryAsset": "portfolio/pm-email.png",
-        "caption": "Showing campaign coordination and operational planning through structured email scheduling, marketing timelines, and cross-channel workflow organization."
-        },
-        {
-        "title": "Analytics & Performance Reporting",
-        "meta": ["Audience Insights · KPI Reporting · Traffic Analysis"],
-        "summary": "Analytics and reporting work focused on audience engagement trends, campaign performance monitoring, and traffic analysis through KPI reporting and year-over-year performance evaluation.",
-        "tools": ["GA4", "Data Studio", "HubSpot"],
-        "tags":  ["Analytics", "Reporting", "Data-Driven Marketing"],
-        "primaryAsset": "portfolio/analytics-dashboard.png",
-        "caption": "Showing analytical reporting and performance interpretation through KPI summaries, engagement metrics, and year-over-year traffic trend analysis."
-        },
-        {
-        "title": "Editorial & Content Development",
-        "meta": ["Long-Form Writing · Digital Storytelling · SEO Copywriting"],
-        "summary": "Editorial and SEO-informed writing focused on digital storytelling, audience engagement, and long-form content development across travel, lifestyle, and location-based publishing platforms.",
-        "tags": ["Writing","Editorial","Content Creation"],
-        "tools":  [ "WordPress",  "Editorial Research", "Content Writing", "SEO Copywriting"],
-        "primaryAsset": "portfolio/web-editorial.png",
-        "caption": "Showing editorial storytelling and digital publishing work through audience-focused long-form content development and SEO-informed article structure."
-        },
-        {
-        "title": "Frontend Development & Content Systems",
-        "meta": ["Responsive Web Design · Structured Content · Digital Publishing"],
-        "summary": "Frontend development supporting content presentation, responsive web experiences, and content-focused digital experiences using semantic HTML, CSS, JavaScript, and JSON-driven rendering.",        
-        "tools": ["HTML","CSS","JavaScript","JSON"],
-        "tags":  ["Frontend Development", "Web Design", "Content Systems"],
-        "primaryAsset": "portfolio/web-dev.png",
-        "caption": "Showing technical implementation skills through responsive layout development, structured content rendering, and frontend organization."
-        }]
+  "work": [
+    {
+      "title": "SEO & Content Strategy",
+      "meta": ["Search Intent · Keyword Strategy · Content Architecture"],
+      "summary": "Built and executed a full-scale SEO content strategy for a household cleaning product brand, handling everything from keyword research and search intent mapping to content planning, blog development, publishing, and optimization. My work focused on creating organized, search-driven content ecosystems designed to improve visibility, strengthen topical authority, and actually answer the questions people were searching for.",
+      "tools": ["Semrush", "Google Ads", "WordPress"],
+      "tags": ["SEO", "Content Strategy", "Keyword Research"],
+      "primaryAsset": "portfolio/seo-strategy.png",
+      "caption": "A behind-the-scenes look at the content planning process: keyword clustering, search intent mapping, metadata planning, and blog organization for a household cleaning product brand."
+    },
+    {
+      "title": "Project Management & Traffic Coordination",
+      "meta": ["Campaign Planning · Workflow Systems · Email Marketing"],
+      "summary": "Built and managed the project workflows behind a multi-channel nonprofit event campaign, developing systems to keep timelines, creative assets, email marketing, and cross-department collaboration organized from kickoff to launch. The work required balancing campaign logistics, stakeholder communication, shifting priorities, and day-to-day coordination across multiple teams and moving pieces.",      
+      "tools": ["Asana", "Mailchimp", "Content Calendars"],
+      "tags": ["Campaigns", "Email Marketing", "Project Management"],
+      "primaryAsset": "portfolio/pm-email.png",
+      "caption": "Campaign workflow management in action, including timeline tracking, approvals, email scheduling, and keeping a lot of moving pieces from catching on fire."
+    },
+    {
+      "title": "Analytics & Performance Reporting",
+      "meta": ["Audience Insights · KPI Reporting · Traffic Analysis"],
+      "summary": "Created monthly reporting dashboards to track website traffic, campaign performance, audience behavior, and conversion trends across marketing channels. Beyond just pulling numbers, I used analytics data to figure out what was working, where audiences were coming from, and how future campaigns and content strategies could perform better.",
+      "tools": ["GA4", "Data Studio", "Google Search Console"],
+      "tags": ["Analytics", "Reporting", "Data-Driven Marketing"],
+      "primaryAsset": "portfolio/analytics-dashboard.png",
+      "caption": "Custom reporting dashboard used to track KPIs, audience engagement, traffic sources, and the bigger story hiding behind the numbers."
+    },
+    {
+      "title": "Editorial & Content Development",
+      "meta": ["Long-Form Writing · Digital Storytelling · SEO Copywriting"],
+      "summary": "Written content across travel, lifestyle, legal, healthcare, real estate, and tech industries, ranging from branded copy and editorial features to long-form digital storytelling. My work focuses on adapting tone, voice, and structure to fit different audiences and platforms while creating content that feels engaging, human, and intentionally crafted.",
+      "tags": ["Writing", "Editorial", "Content Creation"],
+      "tools": ["WordPress", "Editorial Research", "Content Writing", "SEO Copywriting"],
+      "primaryAsset": "portfolio/web-editorial.png",
+      "caption": "Published editorial work combining digital storytelling, audience engagement, and SEO-aware content structure across a range of industries and platforms."
+    },
+    {
+      "title": "Frontend Development & Content Systems",
+      "meta": ["Responsive Web Design · Structured Content · Digital Publishing"],
+      "summary": "Designed and built this portfolio website from scratch using HTML, CSS, JavaScript, and JSON-driven rendering to showcase both frontend development fundamentals and structured content systems. I also have experience managing large-scale publishing environments in WordPress and Craft CMS, where clean organization and scalable workflows matter just as much as design.",
+      "tools": ["HTML", "CSS", "JavaScript", "JSON"],
+      "tags": ["Frontend Development", "Web Design", "Content Systems"],
+      "primaryAsset": "portfolio/web-dev.png",
+      "caption": "The site you're currently looking at — built from scratch to showcase responsive design, frontend fundamentals, and content-focused web development."
+    }
+  ]
 }

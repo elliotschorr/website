@@ -1,4 +1,3 @@
-
 fetch('work.json')
     .then(response => response.json())
     .then(data => {
@@ -8,7 +7,7 @@ fetch('work.json')
         projects.innerHTML = `
 
             ${data.work.map(project => `
-        <div class="content">
+        <div class="content project-section">
         <div class="project-container">
              <div class="project-about">
                  <h1 class="project-title">
@@ -33,19 +32,14 @@ fetch('work.json')
 
                         </div>
         </div>
-        <div class="project-image">
-                        <a href="${project.primaryAsset}" data-lightbox="gallery">
-                            <img src="${project.primaryAsset}" style="object-fit: cover; height: 100%">
-                        </a>
-                        <p>${project.caption} (click to enlarge).</p>
-                    
-        </div>
-        
-        </div>
-    
-    </div>
-
-            `).join("")}
-
-        `;
-    });
+        <div class="project-media">
+            <div class="project-image">
+                <a href="${project.primaryAsset}" data-lightbox="gallery">
+                 <img src="${project.primaryAsset}" alt="${project.caption}">
+                </a>
+             </div>
+            <p class="project-caption">${project.caption}</p>
+        </div> 
+  </div>
+</div>
+`).join("")}`;});

@@ -30,9 +30,6 @@ body {
 
 }
 
-.home {
-    font-weight: bold;
-}
 
 .content {
     flex: 1;
@@ -58,11 +55,17 @@ body {
     gap: 20px;
 }
 
-@media (min-width: 768px) {
-    .content .project-container {
+@media (min-width: 1200px) {
+    .content {
         flex-direction: row;
+        align-items: center;
+        gap: 60px;
     }
 
+    .content .project-container {
+        flex-direction: row;
+        gap: 30px;
+    }
 }
 
 .footer {
@@ -107,13 +110,14 @@ label {
 }
 
 button {
-   width: 100px;
+    width: 120px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 12px;
     border: 3px solid #FAF1EB;
     color: #FAF1EB;   
     background-color: #280D0D;
     font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
 
 }
 
@@ -123,9 +127,10 @@ button:hover {
     border: 3px solid #280D0D;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 100px;
+    width: 120px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -215,14 +220,38 @@ textarea {
     flex: 5;
 }
 
-.project-image {
+.project-media {
     flex: 4;
+}
+
+.project-image {
     border: 2px solid #280D0D;
     border-radius: 10px;
-    width: fixed;
-    height: fixed;
     overflow: hidden;
+    height: 320px;
 }
+
+.project-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-caption {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(40, 13, 13, .7);
+}
+
 .project-tools {
     display: flex;
     gap: 10px;
@@ -253,8 +282,44 @@ textarea {
 .project-container {
     flex: auto;
     display: flex;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    gap: 20px;
+    gap: 5px;
     flex-direction: column-reverse;
+    align-items: center;
+}
+
+.project-section {
+    border-bottom: 1px solid rgba(40, 13, 13, 0.2);
+    padding: 60px 0;
+}
+
+.content.project-section {
+    margin-bottom: 0;
+}
+
+.portfolio-intro {
+    flex: 0;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px 0 40px;
+}
+
+.portfolio-intro .portfolio-note {
+    font-style: italic;
+    font-size: 14px;
+    color: rgba(40, 13, 13, 0.7);
+}
+
+.portfolio-cta {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.portfolio-cta h1 {
+    margin: 0;
 }
