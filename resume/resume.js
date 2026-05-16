@@ -47,7 +47,7 @@ fetch("resume.json")
             <div class="skills-table">
                 ${data.skills.map(skill => ` 
                     <div class="skills-card">
-                        <a href="../work/#${skill.name.replace(/\s+/g, '-')}" style="color: inherit; text-decoration: none;">
+                        <a href="../work/#${skill.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-')}" style="color: inherit; text-decoration: none;">
                             <h3>${skill.name}</h3>
                             <p>${skill.keywords.join(", ")}</p>
                         </a>

@@ -91,18 +91,18 @@
   }
 ],
   "skills": [{
-    "name": "Project Management",
-    "level": "Master",
-    "keywords": [
-      "Project Coordination", "Agile Methodologies", "Workflow Management", "Cross-Functional Communication", "Asana", "Notion", "Trello", "Jira"
-    ]    
-  },{
     "name": "Search Engine Optimization",
     "level": "Master",
     "keywords": [
       "Semrush", "Local SEO", "Keyword Research", "On-Page Optimization", "Technical SEO", "SEO Content Strategy"
     ]   
   },{
+    "name": "Project Management",
+    "level": "Master",
+    "keywords": [
+      "Project Coordination", "Agile Methodologies", "Workflow Management", "Cross-Functional Communication", "Asana", "Notion", "Trello", "Jira"
+    ]    
+  },  {
     "name": "Digital Marketing & Analytics",
     "level": "Master",
     "keywords": [
