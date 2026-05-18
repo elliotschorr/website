@@ -343,6 +343,10 @@ textarea {
         margin-right: 18%;
         gap: 20px;
     }
-
+    .skills-table {
+        display: block;
+    }
+    .skills-card {
+        margin-bottom: 10px;}
 
 }
